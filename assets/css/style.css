@@ -4,15 +4,38 @@ h1 {
 
 #header {
     display: inline;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
-#links { 
+#links{ 
     color: #777777;
     float: right;
+
 }
 
 #content {
     padding: 100px;
     padding-top: 0;
     width: 960px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#footer {
+    float: center;
+    margin-left: 500px;
+    padding-left: 500px
+}
+
+#links:hover {
+    background-color: lightcyan
+}
+
+#footer:focus {
+    background: red
+}
+
+.nav {
+    float: right
 }
