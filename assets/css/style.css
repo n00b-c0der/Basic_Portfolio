@@ -1,16 +1,21 @@
 h1 {
-    color: #4aaaa5
+    color: #4aaaa5;
 }
 
 #header {
     display: inline;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    width: 960px;
 }
 
 #links{ 
     color: #777777;
     float: right;
+}
 
+body {
+    width: 960px;
+    background-image: url("./../images/white-waves.png");
 }
 
 #content {
@@ -22,20 +27,18 @@ h1 {
     margin-right: 20px;
 }
 
-#footer {
+footer {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#container {
     float: center;
-    margin-left: 500px;
-    padding-left: 500px
-}
-
-#links:hover {
-    background-color: lightcyan
-}
-
-#footer:focus {
-    background: red
-}
-
-.nav {
-    float: right
+    text-align: center;
+    display: inline-block;
+    vertical-align: center;
 }
