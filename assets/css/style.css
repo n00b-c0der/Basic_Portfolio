@@ -8,6 +8,10 @@ h1 {
     width: 960px;
 }
 
+h1, h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
 #links{ 
     color: #777777;
     float: right;
